@@ -28,6 +28,9 @@ header {
 main {
     background-color: white;
 }
+.main-corp{
+    background-color: hsl(200deg 20% 97.06%);
+}
 
 /* BUTTON */
 button.task-button,
@@ -53,7 +56,7 @@ button.section-button {
 }
 
 .divider {
-    color: white;
+    border: 2px solid hsl(200deg 20% 97.06%);
     margin-top: 10px;
 }
 
@@ -85,7 +88,6 @@ button.section-button {
     padding: 5px;
     font-size: 15px;
     margin: none;
-    font-weight: 100;
 }
 
 .circle {
