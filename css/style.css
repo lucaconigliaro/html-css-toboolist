@@ -52,29 +52,72 @@ button.task-button {
     width: 80%;
     max-width: 1100px;
     margin: 0 auto;
+   background-color: white;
+    text-align: left;
+    border-radius: 5px
 
     /* debug  */
     border: 1px solid black;
 }
 
+/* LIST  */
+.title-list {
+    list-style: none;
+    background-color: white;
+}
 
+.title-list li {
+    padding: 5px;
+}
 
+.circle {
+    margin: 10px 0;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 50%;
+    font-size: 8px;
+    font-weight: bold;
+}
 
+.check {
+ color: #64c0a9;;
+}
 
+.cross {
+    color: #f39691;
 
+}
+.tag {
+    padding: 5px 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    color: white;
+}
 
+.editorial {
+    background-color: #47adf1;
+}
 
+.goals {
+    background-color: #9c72e4;
+}
 
+.recruiting {
+    background-color: #64c0a9;
+}
 
+.mobile {
+    background-color: #f29e33;
+}
 
+.webiste {
+    background-color: #d863a1;
+}
 
-/*  colore background body  */
-/* #47adf1 colore task e editor  */
-/* #9c72e4 colore Q1 */
-/* #64c0a9 colore recruting */
-/* #f29e33 colore mobile */
-/* #d863a1 colore website */
-/* #b0c926 colore sales */
-
-/* #b2e2d8 colore spunta */
-/* #f39691 colore croce */
+.sales {
+    background-color: #b0c926;
+}
