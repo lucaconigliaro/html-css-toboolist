@@ -1,7 +1,36 @@
 /* RESET */
 * {
-padding: 0;
-margin: 0;
-box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
+/* HEADER */
+header {
+    background-color: white;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.header-logo img {
+    height: 50px;
+    vertical-align: middle;
+}
+
+.header-logo .logo-text {
+    font-size: 30px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+/* MAIN */
+/* #f6f8f9 colore background body  */
+/* #47adf1 colore task e editor  */
+/* #9c72e4 colore Q1 */
+/* #64c0a9 colore recruting */
+/* #f29e33 colore mobile */
+/* #d863a1 colore website */
+/* #b0c926 colore sales */
+
+/* #b2e2d8 colore spunta */
+/* #f39691 colore croce */
