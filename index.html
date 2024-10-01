@@ -1,40 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To do List</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <!-- Header To do List  -->
-     <header class="header">
-        <div class="header-logo">
+    <div class="header-logo">
+        <header class="header">
             <img id="logo" src="./img/Logo.png" alt="Logo">
             <span class="logo-text">Toobolist</span>
-        </div>
-     </header>
+        </header>
+    </div>
     <!-- /Header To do List  -->
 
     <!-- Main  -->
-     <main class="main-corp">
+    <div class="container">
+        <main class="main-corp">
 
-        <!-- Section Add -->
-        <!-- /Section Add -->
+            <!-- Section Add -->
+            <div>
+                <button class="task-button">Add Task</button>
+                <button class="section-button">Add Section</button>
+            </div>
+            <!-- /Section Add -->
 
-        <!-- Section List  -->
-         <!-- New Task -->
-         <!-- /New Task -->
+            <hr class="divider">
 
-         <!-- Today  -->
-         <!-- /Today  -->
+            <!-- Section List  -->
+            <section class="task-section">
+                <!-- New Task -->
+                <ul> New Task
+                    <li>
+                        <span class="check">&check;</span>Quarterly Newsletter <span class="editorial">Editorial</span>
+                    </li>
+                </ul>
+                <!-- /New Task -->
+            </section>
 
-         <!-- Upcoming  -->
-         <!-- /Upcoming  -->
-        <!-- /Section List  -->
+            <section class="task-section">
+                <!-- Today  -->
+                <ul>Today
+                    <li><span class="check">&check;</span>Recruiting blog post <span class="goal">Q1 Goals</span></li>
+                    <li><span class="cross;">&cross;</span>Interview John H. <span class="recruiting">Recruiting</span>
+                    </li>
+                    <li><span class="check">&check;</span>Summit update to mobile storefronts <span
+                            class="mobile">Mobile</span>
+                </ul>
+                <!-- /Today  -->
+            </section>
 
-     </main>
+
+            <section class="task-section">
+                <!-- Upcoming  -->
+                <ul>Upcoming
+                    <li><span class="cross">&cross;</span>Schedule meeting with Alex</li>
+                    <li><span class="check">&check;</span>Homepage refresh <span class="website">Website</span></li>
+                    <li><span class="check">&check;</span>Onboard new Sales team members <span
+                            class="sales">Sales</span></li>
+                    <li><span class="check">&check;</span>Review Editorial calendar <span
+                            class="editorial">Editorial</span></li>
+                </ul>
+                <!-- /Upcoming  -->
+            </section>
+            <!-- /Section List  -->
+
+        </main>
+    </div>
     <!-- /Main  -->
-
 </body>
+
 </html>
